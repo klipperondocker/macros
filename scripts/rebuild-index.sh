@@ -29,7 +29,7 @@ do
     TITLE=$(cat $FILE | grep "# " | head -n 1)
     echo $TITLE
 
-    echo "* [$TITLE]($FILE)" >> index.md
+    echo "* [${TITLE:2}]($FILE)" >> index.md
   fi
 done
 

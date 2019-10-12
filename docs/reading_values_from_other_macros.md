@@ -1,11 +1,11 @@
-# List of macros ...
+# Macro variables usage
 
 Set variables with default value and gcode that does nothing
 ```
 [gcode_macro CONFIGS]
 variable_my_stored_variable: 0
 gcode:
-  M118 Stored
+  M118 Stored variable as {printer["gcode_macro CONFIGS"].my_stored_variable}
 ```
 
 

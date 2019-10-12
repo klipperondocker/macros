@@ -1,5 +1,4 @@
 
-* [# Klipper Macros](old_index.md)
 * [# Printing ended](print_event_end.md)
 * [# Print event prepare](print_prepare.md)
 * [# List of macros ...](reading_values_from_other_macros.md)

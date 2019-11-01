@@ -13,7 +13,7 @@ Use those variables in another macro
 ```
 [gcode_macro PRINT_STORED_VARIABLE]
 gcode:
-  M118 Values is {printer[gcode_macro CONFIGS"].my_stored_variable}
+  M118 Value is {printer[gcode_macro CONFIGS"].my_stored_variable}
 ```
 
 Change the variables from another macro
